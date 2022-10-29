@@ -1,0 +1,123 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+
+/*  Строка навигации  */
+
+.logoh {
+    font-family: 'Raleway', sans-serif;
+    color: #000; 
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.logof {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.logocolor {
+    color: #2196F3;
+}
+
+.textblue {
+    color:#2196F3;
+}
+
+.textblack {
+    color: #000;
+}
+
+.textgrey {
+ color: #757575;
+}
+
+.nodots {
+    list-style-type: none;
+}
+
+.nounderline {
+    text-decoration: none;
+}
+
+
+/*  Серая линия  */
+
+.blackback {
+    background-color: #2F303A;
+}
+
+.whitetext {
+    color: #FFFFFF;
+    font-size: 44px;
+    text-align: center;
+}
+
+
+/*  Кнопки  */
+
+.btn {
+ font-size: 16px;
+ padding: 6px 22px;
+}
+
+.buttonA {
+
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 4px;
+}
+
+.buttonU {
+    background-color: #F5F4FA;
+    border: 0;
+    border-radius: 4px;
+}
+
+
+
+/*  Текст в столбиках в мейне  */
+
+.stolbecblack {
+    color: #212121;
+}
+
+.stolbecgrey {
+    color: #757575;
+}
+
+
+/*  Поле с фото  */
+
+.paragraph {
+    color: #212121;
+    font-size: 36px;
+}
+
+.greyback {
+    background-color: #F5F4FA;
+}
+
+.whitebox {
+    background-color: #FFFFFF;
+}
+
+.textcentre {
+    text-align: center;
+}
+
+
+/*  Нижнее поле  */
+
+.textadress {
+color: #FFFFFF;
+}
+
+.textinform {
+color: #FFFFFF; 
+opacity: 0.6;
+}
