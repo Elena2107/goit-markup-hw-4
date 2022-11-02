@@ -6,23 +6,31 @@ font-family: 'Roboto', sans-serif;
 /*  Строка навигации  */
 
 .logoh {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
-    letter-spacing: 0.3;
-    line-height: 1.33;
+    font-size: 26px;
+    line-height: 31px;
+        /* identical to box height */
+    
+    letter-spacing: 0.03em;
     color: #000; 
     text-decoration: none;
     font-size: 26px;
 }
 
 .logof {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
-    letter-spacing: 0.3;
-    line-height: 1.33;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
     color: #fff;
     text-decoration: none;
-    font-size: 26px;
 }
 
 .logocolor {
@@ -30,27 +38,34 @@ font-family: 'Roboto', sans-serif;
 }
 
 .textblue {
-    color:#2196F3;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
-    letter-spacing: 0.2;
     font-size: 14px;
-    line-height: 1.33;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
 }
 
 .textblack {
-    color: #000;
+    
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
-    letter-spacing: 0.2;
     font-size: 14px;
-    line-height: 1.33;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 
 .textgrey {
- color: #757575;
-font-weight: 500;
-letter-spacing: 0.2;
-font-size: 14px;
-line-height: 1.33;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 
 .nodots {
@@ -69,12 +84,18 @@ line-height: 1.33;
 }
 
 .whitetext {
-    color: #FFFFFF;
-    font-size: 44px;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: 0.6;
-    line-height: 1.33;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
 
 
@@ -88,20 +109,51 @@ line-height: 1.33;
 .buttonA {
 
     background-color: #2196F3;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
-    letter-spacing: 0.6;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 4px;
+}
+
+.buttonAs {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #2196F3;
     color: #FFFFFF;
     border: 0;
     border-radius: 4px;
 }
 
 .buttonU {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
-    letter-spacing: 0.3;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121
     background-color: #F5F4FA;
     border: 0;
     border-radius: 4px;
@@ -112,30 +164,43 @@ line-height: 1.33;
 /*  Текст в столбиках в мейне  */
 
 .stolbecblack {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
-    letter-spacing: 0.3;
     font-size: 14px;
-    line-height: 1.33;
-    color: #212121;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121
 }
 
 .stolbecgrey {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
-    letter-spacing: 24;
     font-size: 14px;
-    line-height: 1.33;
-    color: #757575;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575
 }
 
 
 /*  Поле с фото  */
 
 .paragraph {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
-    letter-spacing: 0.3;
-    line-height: 1.33;
-    color: #212121;
     font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121
 }
 
 .greyback {
@@ -151,36 +216,57 @@ line-height: 1.33;
 }
 
 .biography {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
-    letter-spacing: 0.3;
-    line-height: 1.33;
-    color: #212121;
     font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121
 }
 
 .biography2 {
-    font-weight: 500;
-    letter-spacing: 0.3;
-    line-height: 1.33;
-    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575
 }
 
 /*  Нижнее поле  */
 
 .textadress {
-    font-weight: 500;
-    letter-spacing: 0.3;
-    line-height: 1.33;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
-    color: #FFFFFF;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF
 }
 
 .textinform {
-    font-weight: 500;
-    letter-spacing: 0.3;
-    line-height: 1.33;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
     color: #FFFFFF; 
     opacity: 0.6;
 }
