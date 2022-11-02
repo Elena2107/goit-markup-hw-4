@@ -7,6 +7,9 @@ font-family: 'Roboto', sans-serif;
 
 .logoh {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3;
+    line-height: 1.33;
     color: #000; 
     text-decoration: none;
     font-size: 26px;
@@ -14,6 +17,9 @@ font-family: 'Roboto', sans-serif;
 
 .logof {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3;
+    line-height: 1.33;
     color: #fff;
     text-decoration: none;
     font-size: 26px;
@@ -25,14 +31,26 @@ font-family: 'Roboto', sans-serif;
 
 .textblue {
     color:#2196F3;
+    font-weight: 500;
+    letter-spacing: 0.2;
+    font-size: 14px;
+    line-height: 1.33;
 }
 
 .textblack {
     color: #000;
+    font-weight: 500;
+    letter-spacing: 0.2;
+    font-size: 14px;
+    line-height: 1.33;
 }
 
 .textgrey {
  color: #757575;
+font-weight: 500;
+letter-spacing: 0.2;
+font-size: 14px;
+line-height: 1.33;
 }
 
 .nodots {
@@ -54,6 +72,9 @@ font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size: 44px;
     text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.6;
+    line-height: 1.33;
 }
 
 
@@ -67,12 +88,20 @@ font-family: 'Roboto', sans-serif;
 .buttonA {
 
     background-color: #2196F3;
+    font-weight: 700;
+    letter-spacing: 0.6;
+    font-size: 16px;
+    line-height: 1.33;
     color: #FFFFFF;
     border: 0;
     border-radius: 4px;
 }
 
 .buttonU {
+    font-weight: 500;
+    letter-spacing: 0.3;
+    font-size: 16px;
+    line-height: 1.33;
     background-color: #F5F4FA;
     border: 0;
     border-radius: 4px;
@@ -83,10 +112,18 @@ font-family: 'Roboto', sans-serif;
 /*  Текст в столбиках в мейне  */
 
 .stolbecblack {
+    font-weight: 700;
+    letter-spacing: 0.3;
+    font-size: 14px;
+    line-height: 1.33;
     color: #212121;
 }
 
 .stolbecgrey {
+    font-weight: 400;
+    letter-spacing: 24;
+    font-size: 14px;
+    line-height: 1.33;
     color: #757575;
 }
 
@@ -94,6 +131,9 @@ font-family: 'Roboto', sans-serif;
 /*  Поле с фото  */
 
 .paragraph {
+    font-weight: 700;
+    letter-spacing: 0.3;
+    line-height: 1.33;
     color: #212121;
     font-size: 36px;
 }
@@ -110,14 +150,37 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
+.biography {
+    font-weight: 500;
+    letter-spacing: 0.3;
+    line-height: 1.33;
+    color: #212121;
+    font-size: 16px;
+}
+
+.biography2 {
+    font-weight: 500;
+    letter-spacing: 0.3;
+    line-height: 1.33;
+    color: #757575;
+    font-size: 16px;
+}
 
 /*  Нижнее поле  */
 
 .textadress {
-color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 0.3;
+    line-height: 1.33;
+    font-size: 14px;
+    color: #FFFFFF;
 }
 
 .textinform {
-color: #FFFFFF; 
-opacity: 0.6;
+    font-weight: 500;
+    letter-spacing: 0.3;
+    line-height: 1.33;
+    font-size: 14px;
+    color: #FFFFFF; 
+    opacity: 0.6;
 }
