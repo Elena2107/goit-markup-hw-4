@@ -6,13 +6,9 @@ font-family: 'Roboto', sans-serif;
 /*  Строка навигации  */
 
 .logoh {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
-    line-height: 31px;
-        /* identical to box height */
-    
+    line-height: 1.19px;
     letter-spacing: 0.03em;
     color: #000; 
     text-decoration: none;
@@ -20,15 +16,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .logof {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-    
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    
     color: #fff;
     text-decoration: none;
 }
@@ -38,36 +29,37 @@ font-family: 'Roboto', sans-serif;
 }
 
 .textblue {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14px;
     letter-spacing: 0.02em;
     color: #2196F3;
 }
 
 .textblack {
-    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14px;
     letter-spacing: 0.02em;
     color: #212121;
 }
 
 .textgrey {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14px;
     letter-spacing: 0.02em;
     color: #757575;
 }
 
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #2196F3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 .nodots {
     list-style-type: none;
 }
@@ -84,17 +76,12 @@ font-family: 'Roboto', sans-serif;
 }
 
 .whitetext {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
-/* or 136% */
-
-text-align: center;
+line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
+text-align: center;
 color: #FFFFFF;
 }
 
@@ -109,54 +96,42 @@ color: #FFFFFF;
 .buttonA {
 
     background-color: #2196F3;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+    font-family: inherit;
     font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 1.33;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     border: 0;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .buttonAs {
 
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     background-color: #2196F3;
     color: #FFFFFF;
     border: 0;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .buttonU {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    
-    text-align: center;
+    line-height: 1,62;
     letter-spacing: 0.03em;
-    
-    color: #212121
+    color: #212121;
     background-color: #F5F4FA;
     border: 0;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 
@@ -164,27 +139,17 @@ color: #FFFFFF;
 /*  Текст в столбиках в мейне  */
 
 .stolbecblack {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: #212121
 }
 
 .stolbecgrey {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    
     color: #757575
 }
 
@@ -192,14 +157,9 @@ color: #FFFFFF;
 /*  Поле с фото  */
 
 .paragraph {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
+    line-height: 1.16;
     letter-spacing: 0.03em;
-    
     color: #212121
 }
 
@@ -216,56 +176,32 @@ color: #FFFFFF;
 }
 
 .biography {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
+    line-height: 1.18;
     letter-spacing: 0.03em;
-    
     color: #212121
 }
 
 .biography2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    text-align: center;
+    line-height: 1.18;
     letter-spacing: 0.03em;
-    
     color: #757575
 }
 
 /*  Нижнее поле  */
 
 .textadress {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    
     color: #FFFFFF
 }
 
 .textinform {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF; 
     opacity: 0.6;
