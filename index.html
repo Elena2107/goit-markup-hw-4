@@ -8,36 +8,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>GoIT HW-01</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GoIT HW-03</title>
 </head>
 <body>
-    <header> 
-
-        <a href="/" class="logoh"> <b><span class="logocolor">Web</span>Studio</b></a>
-        <nav>
-            <ul class="nodots">
+    <header class="header"> 
+        <div class="conteiner header-conteiner">
+        <a href="./index.html" class="logoh"> <b><span class="logocolor">Web</span>Studio</b></a>
+        <nav class="navigation">
+            <ul class="nodots header-box">
                 <li> <a href="./index.html"  class="textblue nounderline header-nav-link">Студія</a> </li>
                 <li> <a href="./portfolio.html" class="textblack nounderline header-nav-link">Портфоліо</a> </li>
                 <li> <a href="#" class="textblack nounderline header-nav-link">Контакти</a> </li>
             </ul>
         </nav>
 
-            <ul class="nodots"> 
+            <ul class="nodots header-box"> 
                 <li> <a href="mailto: info@devstudio.com" class="textblue nounderline">info@devstudio.com</a></li>
                 <li> <a href="tel:+380961111111" class="textgrey nounderline"> +38 096 111 11 11</a></li>
             </ul>
-       
+        </div>
     </header>
 
-    <main>
+    <main> 
         <section class="blackback">
-        
-            <h1 class="whitetext"> <b> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</b> </h1>
-            <button type="button" class="buttonA">Замовити послугу</button>
+            <div class="conteiner">
+                <h1 class="whitetext"> <b> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</b> </h1>
+                <button type="button" class="buttonA">Замовити послугу</button>
+            </div>
         </section>
 
-        <section>
-             <ul class="nodots">
+
+        <section class="columns">
+            <div class="conteiner">
+             <ul class="nodots about-list-text">
                 <li> <h3 class="columnblack">УВАГА ДО ДЕТАЛЕЙ</h3> 
                     <p class="columngrey">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
@@ -51,42 +55,53 @@
                     <p class="columngrey">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
+            </div>
         </section>
 
-        <section>
-            <h2 class="paragraph"> <b>Чим ми займаємося</b></h2>
-            <ul class="nodots"> 
-                <li> <img src="./images/img1.jpg" alt="фото1" height=294 wight=370> </li>
-                <li> <img src="./images/img2.jpg" alt="фото2" height=294 wight=370></li>
-                <li> <img src="./images/img3.jpg" alt="фото3" height=294 wight=370></li>
-            </ul>
+
         
-        <section class="greyback">
-            <h2 class="paragraph"> <b>Наша команда</b></h2>
-            <ul class="nodots">
-                <li class="whitebox"> <img src="./images/img4.jpg" alt="фото4" height=270 wight=260> <h3 class="textcentre biography">Ігор Дем'яненко</h3> <p class="textcentre biography2">Product Designer</p></li>
-                <li class="whitebox"> <img src="./images/img5.jpg" alt="фото5" height=270 wight=260> <h3 class="textcentre biography">Ольга Рєпіна</h3> <p class="textcentre biography2">Frontend Developer</p></li>
-                <li class="whitebox"> <img src="./images/img6.jpg" alt="фото6" height=270 wight=260> <h3 class="textcentre biography">Микола Тарасов</h3> <p class="textcentre biography2">Marketing</p></li>
-                <li class="whitebox"> <img src="./images/img7.jpg" alt="фото7" height=270 wight=260> <h3 class="textcentre biography">Михайло Єрмаков</h3> <p class="textcentre biography2">UI Designer</p></li>
-            </ul>
+        <section class="photo">
+            <div class="conteiner">
+                <h2 class="paragraph">Чим ми займаємося</h2>
+                <ul class="nodots about-list"> 
+                    <li class="about-item"> <img src="./images/img1.jpg" alt="фото1" height=294 wight=370></li>
+                    <li class="about-item"> <img src="./images/img2.jpg" alt="фото2" height=294 wight=370></li>
+                    <li class="about-item"> <img src="./images/img3.jpg" alt="фото3" height=294 wight=370></li>
+                </ul>
+            </div>
         </section>
+
+        <section6 class="greyback">
+            <div class="conteiner">
+                <h2 class="paragraph paragraph-step">Наша команда</h2>
+                <ul class="nodots team-list team-item">
+                    <li class="whitebox"> <img src="./images/img4.jpg" alt="фото4" height=260 wight=270> <div class="biography-step"><h3 class="textcentre biography">Ігор Дем'яненко</h3><p class="textcentre biography2">Product Designer</p></div></li>
+                    <li class="whitebox"> <img src="./images/img5.jpg" alt="фото5" height=260 wight=270> <div class="biography-step"><h3 class="textcentre biography">Ольга Рєпіна</h3><p class="textcentre biography2">Frontend Developer</p></div></li>
+                    <li class="whitebox"> <img src="./images/img6.jpg" alt="фото6" height=260 wight=270> <div class="biography-step"><h3 class="textcentre biography">Микола Тарасов</h3><p class="textcentre biography2">Marketing</p></div></li>
+                    <li class="whitebox"> <img src="./images/img7.jpg" alt="фото7" height=260 wight=270> <div class="biography-step"><h3 class="textcentre biography">Михайло Єрмаков</h3><p class="textcentre biography2">UI Designer</p></div></li>
+                </ul>
+            </div>
+        </section6
+        
     </main>
 
     <footer class="blackback">
-         <a href="./index.html" class="logof"> <b><span class="logocolor">Web</span>Studio</b></a>
+        <div class="conteiner">
         <address>
-            <ul class="nodots">
-                <li>
+             <a href="./index.html" class="logof"> <b><span class="logocolor">Web</span>Studio</b></a>
+            <ul class="nodots indent-footer">
+                <li class="adress">
                     <a href="https://goo.gl/maps/3x2iVxyqnWNt6SJH9" target="_blank" rel="noopener noreferrer" class="textadress nounderline"> м. Київ, пр-т Лесі Українки, 26 </a>
                 </li>
-                <li> 
-                    <a href="mailto: info@devstudio.com" class="textinform nounderline">info@devstudio.com</a> <br> <br> 
+                <li class="adress"> 
+                    <a href="mailto: info@devstudio.com" class="textinform nounderline">info@devstudio.com</a>
                 </li>
-                <li> 
+                <li class="adress"> 
                     <a href="tel:+380961111111" class="textinform nounderline"> +38 096 111 11 11</a> 
                 </li>
             </ul>
         </address>
+        </div>
     </footer>
 
 </body>
