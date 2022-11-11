@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif;
 .logoh {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000; 
     text-decoration: none;
@@ -160,6 +160,7 @@ text-align: center;
 color: #FFFFFF;
 margin: 0 auto;
 width: 696px;
+margin-bottom: 30PX;
 }
 
 
@@ -280,11 +281,13 @@ width: 696px;
 }
 
 .paragraph-step{
-    margin-top: 94px;
+    
 }
 
 .greyback {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .whitebox {
@@ -305,7 +308,7 @@ width: 696px;
 }
 
 .team-item{
-    flex-basis: calc((100%-90px)/4);
+    flex-basis: calc((100%- 90px)/4);
 }
 
 .biography {
@@ -332,7 +335,7 @@ width: 696px;
 /* Поле с фото-техникой */
 
 .main-photo{
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .main-photo-second{
@@ -352,11 +355,13 @@ width: 696px;
 
 .portfolio-step{
     padding: 20px 24px;
+    border: 1px #EEEEEE solid;
 }
 
 .whitebox-portfolio{
     background-color: #ffffff;
     width: 370px;
+    
 }
 
 .frame-text-black {
@@ -364,7 +369,7 @@ width: 696px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    padding-top: 20px;
+    
 }
 
 .frame-text-grey {
