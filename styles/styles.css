@@ -61,16 +61,12 @@ font-family: 'Roboto', sans-serif;
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px #000;
+    border-bottom-style: solid;
+    border-bottom-color: #EEEEEE;
+    border-bottom-width: 1px;
 }
 
-hr {
-    margin: 0;
-    border: none;
-    height: 1px;
-    margin-top: 25px;
-    color: #ECECEC;
-    background-color: #ECECEC;
-}
 
 .header-box {
     display: flex;
@@ -145,6 +141,12 @@ address {
 /*  Серая линия  */
 
 .blackback {
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.blackback-Footer{
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -304,7 +306,6 @@ margin-bottom: 30PX;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 94px;
 }
 
 .team-item{
