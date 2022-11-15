@@ -67,6 +67,12 @@ font-family: 'Roboto', sans-serif;
     border-bottom-width: 1px;
 }
 
+.header-soc-icon{
+    fill: #757575;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+
 
 .header-box {
     display: flex;
@@ -140,10 +146,14 @@ address {
 
 /*  Серая линия  */
 
-.blackback {
-    background-color: #2F303A;
+.blackback { background-image: 
+    linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+    url(../images/Img-background.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: cover;
 }
 
 .blackback-Footer{
@@ -236,6 +246,7 @@ margin-bottom: 30PX;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 30px;
     margin-bottom: 10px;
     color: #212121
 }
@@ -246,6 +257,34 @@ margin-bottom: 30PX;
     letter-spacing: 0.03em;
     max-width: 270px;
     color: #757575
+}
+
+.columns-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*.columns-soc-item {
+    
+}*/
+
+.columns-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.whitebox-columns{
+    width: 270px;
+    height: 120px;
+    border-radius: 4%;
+    background-color: #F5F4FA;
+    margin-bottom: 134px;
 }
 
 
@@ -282,9 +321,9 @@ margin-bottom: 30PX;
     
 }
 
-.paragraph-step{
-    
-}
+/*.paragraph-step{ 
+}*/
+
 
 .greyback {
     background-color: #F5F4FA;
@@ -295,7 +334,9 @@ margin-bottom: 30PX;
 .whitebox {
     background-color: #FFFFFF;
     width: 270px;
-    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);;
 }
 
 .textcentre {
@@ -325,6 +366,7 @@ margin-bottom: 30PX;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
     color: #757575
 }
 
@@ -332,6 +374,77 @@ margin-bottom: 30PX;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.biography-soc-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.biography-soc-item{
+   width: 44px; 
+   height: 44px;
+}
+
+.biography-soc-link{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.biography-soc-icon{
+    fill: #AFB1B8;
+}
+
+.biography-soc-link:hover{
+    background-color: #2196F3;
+}
+
+.biography-soc-link:hover .biography-soc-icon{
+    fill: #FFFFFF;
+}
+
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;}
+
+.clients-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-soc-item {
+    width: 170px;
+    height: 92px;
+    border-radius: 4%;
+}
+
+.clients-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid #AFB1B8;
+}
+
+.clients-soc-icon {
+    fill: #AFB1B8;
+}
+
+.clients-soc-link:hover {
+    outline: 1px solid #2196F3;
+}
+
+.clients-soc-link:hover .clients-soc-icon {
+    fill: #2196F3;
+}
+
 
 /* Поле с фото-техникой */
 
@@ -408,6 +521,66 @@ margin-bottom: 30PX;
 .adress{
     margin-bottom: 9px;
 }
-address {
-    font-style: normal;
+
+.adress-and-network{
+    display: flex;
+    gap: 70px;
 }
+
+.join{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.network{
+    font-style: normal;
+    padding-top: 12px;
+}
+
+.footer-step {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-soc-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-soc-item {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-soc-icon {
+    fill: #fff;
+}
+
+.footer-soc-link:hover {
+    background-color: #2196F3;
+}
+
+.footer-soc-link:hover .biography-soc-icon {
+    fill: #FFFFFF;
+}
+
+.header-soc-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
