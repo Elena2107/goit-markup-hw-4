@@ -71,6 +71,9 @@ font-family: 'Roboto', sans-serif;
     fill: #757575;
     vertical-align:middle;
     margin-right: 10px;
+    margin-bottom: 2px;
+    fill: currentColor;
+    
 }
 
 
@@ -106,6 +109,7 @@ font-family: 'Roboto', sans-serif;
 .header-nav-link:hover,
 .header-nav-link:focus {
     color: #2196F3;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -181,6 +185,12 @@ margin-bottom: 30PX;
 .btn {
  font-size: 16px;
  padding: 6px 22px;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: #2196F3;
+    color: #ffffff;
 }
 
 .buttonA {
@@ -399,7 +409,8 @@ margin-bottom: 30PX;
     fill: #AFB1B8;
 }
 
-.biography-soc-link:hover{
+.biography-soc-link:hover, 
+.biography-soc-link:focus{
     background-color: #2196F3;
 }
 
@@ -437,7 +448,8 @@ margin-bottom: 30PX;
     fill: #AFB1B8;
 }
 
-.clients-soc-link:hover {
+.clients-soc-link:hover,
+.clients-soc-link:focus {
     outline: 1px solid #2196F3;
 }
 
@@ -476,6 +488,11 @@ margin-bottom: 30PX;
     background-color: #ffffff;
     width: 370px;
     
+}
+
+.whitebox-portfolio:hover,
+.whitebox-portfolio:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .frame-text-black {
@@ -570,7 +587,8 @@ margin-bottom: 30PX;
     fill: #fff;
 }
 
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
     background-color: #2196F3;
 }
 
