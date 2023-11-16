@@ -1,366 +1,539 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles/styles.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+
     <title>GoIT HW-04</title>
-</head>
-<body>
-    <header class="header"> 
-        <div class="conteiner header-conteiner">
-        <a href="./index.html" class="logoh"> <b><span class="logocolor">Web</span>Studio</b></a>
+  </head>
+  <body>
+    <header class="header">
+      <div class="conteiner header-conteiner">
+        <a href="./index.html" class="logoh">
+          <b><span class="logocolor">Web</span>Studio</b></a
+        >
         <nav class="navigation">
-            <ul class="nodots header-box">
-                <li> <a href="./index.html"  class="textblue nounderline header-nav-link">Студія</a> </li>
-                <li> <a href="./portfolio.html" class="textblack nounderline header-nav-link">Портфоліо</a> </li>
-                <li> <a href="#" class="textblack nounderline header-nav-link">Контакти</a> </li>
-            </ul>
+          <ul class="nodots header-box">
+            <li>
+              <a
+                href="./index.html"
+                class="textblue nounderline header-nav-link"
+                >Студія</a
+              >
+            </li>
+            <li>
+              <a
+                href="./portfolio.html"
+                class="textblack nounderline header-nav-link"
+                >Портфоліо</a
+              >
+            </li>
+            <li>
+              <a href="#" class="textblack nounderline header-nav-link"
+                >Контакти</a
+              >
+            </li>
+          </ul>
         </nav>
-            <ul class="nodots header-box"> 
-                <li> 
-                    <a href="mailto: info@devstudio.com" class="textgrey header-nav-link nounderline">
-                        <svg class="header-soc-icon" width="16" height="12"><use href="./images/icons.svg#icon-mail"></use></svg>info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380961111111" class="textgrey nounderline header-nav-link"> 
-                        <svg class="header-soc-icon" width="10" height="16"><use href="./images/icons.svg#icon-smartphone"></use></svg> +38 096 111 11 11</a>
-                </li>
-            </ul>
-        </div>
+        <ul class="nodots header-box">
+          <li>
+            <a
+              href="mailto: info@devstudio.com"
+              class="textgrey header-nav-link nounderline"
+            >
+              <svg class="header-soc-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a
+              href="tel:+380961111111"
+              class="textgrey nounderline header-nav-link"
+            >
+              <svg class="header-soc-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
 
-    <main> 
-        <section class="blackback">
-            <div class="conteiner">
-                <h1 class="whitetext"> <b> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</b> </h1>
-                <button type="button" class="buttonA">Замовити послугу</button>
-            </div>
-        </section>
+    <main>
+      <section class="blackback">
+        <div class="conteiner">
+          <h1 class="whitetext">
+            <b> ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</b>
+          </h1>
+          <button type="button" class="buttonA">Замовити послугу</button>
+        </div>
+      </section>
 
+      <section class="columns">
+        <div class="conteiner">
+          <ul class="nodots about-list-text">
+            <li class="columns-soc-item whitebox-columns">
+              <a class="columns-soc-link link">
+                <svg class="columns-soc-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </a>
+              <h3 class="columnblack">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="columngrey">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="columns-soc-item whitebox-columns">
+              <a class="columns-soc-link link">
+                <svg class="columns-soc-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </a>
+              <h3 class="columnblack">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="columngrey">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="columns-soc-item whitebox-columns">
+              <a class="columns-soc-link link">
+                <svg class="columns-soc-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </a>
+              <h3 class="columnblack">ПЛАНУВАННЯ</h3>
+              <p class="columngrey">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="columns-soc-item whitebox-columns">
+              <a class="columns-soc-link link">
+                <svg class="columns-soc-icon" width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </a>
+              <h3 class="columnblack">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="columngrey">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="columns">
-            <div class="conteiner">
-             <ul class="nodots about-list-text">
-                <li class="columns-soc-item whitebox-columns"> 
-                     <a class="columns-soc-link link">
-                        <svg class="columns-soc-icon" width="70" height="70"> 
-                            <use href="./images/icons.svg#icon-antenna"></use></svg> 
-                     </a>
-                    <h3 class="columnblack">УВАГА ДО ДЕТАЛЕЙ</h3> 
-                    <p class="columngrey">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-                <li class="columns-soc-item whitebox-columns"> 
-                    <a class="columns-soc-link link">
-                        <svg class="columns-soc-icon" width="70" height="70"> 
-                            <use href="./images/icons.svg#icon-clock"></use></svg> 
-                     </a>
-                    <h3 class="columnblack">ПУНКТУАЛЬНІСТЬ</h3> 
-                    <p class="columngrey">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                </li>
-                <li class="columns-soc-item whitebox-columns">
-                    <a class="columns-soc-link link">
-                        <svg class="columns-soc-icon" width="70" height="70"> 
-                            <use href="./images/icons.svg#icon-diagram"></use></svg> 
-                     </a>
-                    <h3 class="columnblack">ПЛАНУВАННЯ</h3> 
-                    <p class="columngrey">Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-                <li class="columns-soc-item whitebox-columns"> 
-                    <a class="columns-soc-link link">
-                        <svg class="columns-soc-icon" width="70" height="70"> 
-                            <use href="./images/icons.svg#icon-astronaut"></use></svg> 
-                     </a>
-                    <h3 class="columnblack">СУЧАСНІ ТЕХНОЛОГІЇ</h3> 
-                    <p class="columngrey">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </li>
-            </ul>
-            </div>
-        </section>
+      <section class="photo">
+        <div class="conteiner">
+          <h2 class="paragraph">Чим ми займаємося</h2>
+          <ul class="nodots about-list">
+            <li class="about-item">
+              <img
+                src="./images/img1.jpg"
+                alt="фото1"
+                height="294"
+                wight="370"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                src="./images/img2.jpg"
+                alt="фото2"
+                height="294"
+                wight="370"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                src="./images/img3.jpg"
+                alt="фото3"
+                height="294"
+                wight="370"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
 
-
-        
-        <section class="photo">
-            <div class="conteiner">
-                <h2 class="paragraph">Чим ми займаємося</h2>
-                <ul class="nodots about-list"> 
-                    <li class="about-item"> <img src="./images/img1.jpg" alt="фото1" height=294 wight=370></li>
-                    <li class="about-item"> <img src="./images/img2.jpg" alt="фото2" height=294 wight=370></li>
-                    <li class="about-item"> <img src="./images/img3.jpg" alt="фото3" height=294 wight=370></li>
+      <section class="greyback">
+        <div class="conteiner">
+          <h2 class="paragraph paragraph-step">Наша команда</h2>
+          <ul class="nodots team-list">
+            <li class="whitebox team-item">
+              <img
+                src="./images/img4.jpg"
+                alt="фото4"
+                height="260"
+                wight="270"
+              />
+              <div class="biography-step">
+                <h3 class="textcentre biography">Ігор Дем'яненко</h3>
+                <p class="textcentre biography2">Product Designer</p>
+                <ul class="biography-soc-list">
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
                 </ul>
-            </div>
-        </section>
+              </div>
+            </li>
+            <li class="whitebox team-item">
+              <img
+                src="./images/img5.jpg"
+                alt="фото5"
+                height="260"
+                wight="270"
+              />
+              <div class="biography-step">
+                <h3 class="textcentre biography">Ольга Рєпіна</h3>
+                <p class="textcentre biography2">Frontend Developer</p>
+                <ul class="biography-soc-list">
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="whitebox team-item">
+              <img
+                src="./images/img6.jpg"
+                alt="фото6"
+                height="260"
+                wight="270"
+              />
+              <div class="biography-step">
+                <h3 class="textcentre biography">Микола Тарасов</h3>
+                <p class="textcentre biography2">Marketing</p>
+                <ul class="biography-soc-list">
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="whitebox team-item">
+              <img
+                src="./images/img7.jpg"
+                alt="фото7"
+                height="260"
+                wight="270"
+              />
+              <div class="biography-step">
+                <h3 class="textcentre biography">Михайло Єрмаков</h3>
+                <p class="textcentre biography2">UI Designer</p>
+                <ul class="biography-soc-list">
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="biography-soc-item">
+                    <a class="biography-soc-link link" href="#">
+                      <svg class="biography-soc-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="greyback">
-            <div class="conteiner">
-                <h2 class="paragraph paragraph-step">Наша команда</h2>
-            <ul class="nodots team-list">
-                <li class="whitebox team-item"> <img src="./images/img4.jpg" alt="фото4" height=260 wight=270> 
-                    <div class="biography-step"><h3 class="textcentre biography">Ігор Дем'яненко</h3><p class="textcentre biography2">Product Designer</p>
-                        <ul class="biography-soc-list">
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-instagram">
-                                        </use> 
-                                    </svg> 
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-twitter">
-                                        </use> 
-                                    </svg>  
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-facebook">
-                                        </use> 
-                                    </svg>  
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#"> 
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-linkedin">
-                                        </use> 
-                                    </svg> 
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </li>
-                <li class="whitebox team-item"> <img src="./images/img5.jpg" alt="фото5" height=260 wight=270> 
-                    <div class="biography-step"><h3 class="textcentre biography">Ольга Рєпіна</h3><p class="textcentre biography2">Frontend Developer</p>
-                        <ul class="biography-soc-list">
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-instagram">
-                                        </use> 
-                                    </svg> 
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-twitter">
-                                        </use> 
-                                    </svg>  
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-facebook">
-                                        </use> 
-                                    </svg>  
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#"> 
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-linkedin">
-                                        </use> 
-                                    </svg> 
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="whitebox team-item"> <img src="./images/img6.jpg" alt="фото6" height=260 wight=270> 
-                    <div class="biography-step"><h3 class="textcentre biography">Микола Тарасов</h3><p class="textcentre biography2">Marketing</p>
-                        <ul class="biography-soc-list">
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-instagram">
-                                        </use> 
-                                    </svg> 
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-twitter">
-                                        </use> 
-                                    </svg>  
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-facebook">
-                                        </use> 
-                                    </svg>  
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#"> 
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-linkedin">
-                                        </use> 
-                                    </svg> 
-                                </a>
-                            </li>
-                        </ul>
-                        </div>
-                </li>
-                <li class="whitebox team-item"> <img src="./images/img7.jpg" alt="фото7" height=260 wight=270> 
-                    <div class="biography-step"><h3 class="textcentre biography">Михайло Єрмаков</h3><p class="textcentre biography2">UI Designer</p>
-                        <ul class="biography-soc-list">
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-instagram">
-                                        </use> 
-                                    </svg> 
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-twitter">
-                                        </use> 
-                                    </svg>  
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#">
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-facebook">
-                                        </use> 
-                                    </svg>  
-                                </a>
-                            </li>
-                            <li class="biography-soc-item">
-                                <a class="biography-soc-link link" href="#"> 
-                                    <svg class="biography-soc-icon" width="20" height="20"> 
-                                        <use href="./images/icons.svg#icon-linkedin">
-                                        </use> 
-                                    </svg> 
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            </div>
-        </section>
-        
-        <section class="clients">
-                <div class="conteiner">
-                        <h2 class="paragraph paragraph-step">Постійні клієнти</h2>
-                    <ul class="nodots team-list">
-                                <ul class="clients-soc-list">
-                                    <li class="clients-soc-item">
-                                        <a class="clients-soc-link link" href="#">
-                                            <svg class="clients-soc-icon" width="106" height="60"> 
-                                                <use href="./images/icons.svg#icon-Logo-square">
-                                                </use> 
-                                            </svg> 
-                                        </a>
-                                    </li>
-                                    <li class="clients-soc-item">
-                                        <a class="clients-soc-link link" href="#">
-                                            <svg class="clients-soc-icon" width="106" height="60"> 
-                                                <use href="./images/icons.svg#icon-Logo-flags">
-                                                </use> 
-                                            </svg> 
-                                        </a>
-                                    </li>
-                                    <li class="clients-soc-item">
-                                        <a class="clients-soc-link link" href="#">
-                                            <svg class="clients-soc-icon" width="106" height="60"> 
-                                                <use href="./images/icons.svg#icon-Logo-circle">
-                                                </use> 
-                                            </svg> 
-                                        </a>
-                                    </li>
-                                    <li class="clients-soc-item">
-                                        <a class="clients-soc-link link" href="#">
-                                            <svg class="clients-soc-icon" width="106" height="60"> 
-                                                <use href="./images/icons.svg#icon-Logo-nav">
-                                                </use> 
-                                            </svg> 
-                                        </a>
-                                    </li>
-                                    <li class="clients-soc-item">
-                                        <a class="clients-soc-link link" href="#">
-                                            <svg class="clients-soc-icon" width="106" height="60"> 
-                                                <use href="./images/icons.svg#icon-Logo-leaves">
-                                                </use> 
-                                            </svg> 
-                                        </a>
-                                    </li>
-                                    <li class="clients-soc-item">
-                                        <a class="clients-soc-link link" href="#">
-                                            <svg class="clients-soc-icon" width="106" height="60"> 
-                                                <use href="./images/icons.svg#icon-Logo-cube">
-                                                </use> 
-                                            </svg> 
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-        </section>
+      <section class="main-photo">
+        <div class="conteiner">
+          <ul class="nodots portfolio-list portfolio-item main-photo-second">
+            <li class="whitebox-portfolio">
+              <img
+                src="./images/Фото1.jpg"
+                alt="фото1"
+                height="294"
+                wight="370"
+              />
+              <div class="portfolio-step">
+                <h3 class="frame-text-black">Технокряк</h3>
+                <p class="frame-text-grey">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="whitebox-portfolio">
+              <img
+                src="./images/Фото2.jpg"
+                alt="фото2"
+                height="294"
+                wight="370"
+              />
+              <div class="portfolio-step">
+                <h3 class="frame-text-black">
+                  Постер New Orlean vs Golden Star
+                </h3>
+                <p class="frame-text-grey">Дизайн</p>
+              </div>
+            </li>
+            <li class="whitebox-portfolio">
+              <img
+                src="./images/Фото3.jpg"
+                alt="фото3"
+                height="294"
+                wight="370"
+              />
+              <div class="portfolio-step">
+                <h3 class="frame-text-black">Ресторан Seafood</h3>
+                <p class="frame-text-grey">Додаток</p>
+              </div>
+            </li>
+            <li class="whitebox-portfolio">
+              <img
+                src="./images/Фото4.jpg"
+                alt="фото4"
+                height="294"
+                wight="370"
+              />
+              <div class="portfolio-step">
+                <h3 class="frame-text-black">Проєкт Prime</h3>
+                <p class="frame-text-grey">Маркетинг</p>
+              </div>
+            </li>
+            <li class="whitebox-portfolio">
+              <img
+                src="./images/Фото5.jpg"
+                alt="Фото5"
+                height="294"
+                wight="370"
+              />
+              <div class="portfolio-step">
+                <h3 class="frame-text-black">Проєкт Boxes</h3>
+                <p class="frame-text-grey">Додаток</p>
+              </div>
+            </li>
+            <li class="whitebox-portfolio">
+              <img
+                src="./images/Фото6.jpg"
+                alt="фото6"
+                height="294"
+                wight="370"
+              />
+              <div class="portfolio-step">
+                <h3 class="frame-text-black">Inspiration has no Borders</h3>
+                <p class="frame-text-grey">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="whitebox-portfolio">
+              <img
+                src="./images/Фото7.jpg"
+                alt="фото7"
+                height="294"
+                wight="370"
+              />
+              <div class="portfolio-step">
+                <h3 class="frame-text-black">Видання Limited Edition</h3>
+                <p class="frame-text-grey">Дизайн</p>
+              </div>
+            </li>
+            <li class="whitebox-portfolio">
+              <img
+                src="./images/Фото8.jpg"
+                alt="фото8"
+                height="294"
+                wight="370"
+              />
+              <div class="portfolio-step">
+                <h3 class="frame-text-black">Проєкт LAB</h3>
+                <p class="frame-text-grey">Маркетинг</p>
+              </div>
+            </li>
+            <li class="whitebox-portfolio">
+              <img
+                src="./images/Фото9.jpg"
+                alt="фото9"
+                height="294"
+                wight="370"
+              />
+              <div class="portfolio-step">
+                <h3 class="frame-text-black">Growing Business</h3>
+                <p class="frame-text-grey">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="blackback-Footer">
-        <div class="conteiner">
-            <div class="adress-and-network">
-                <div class="address">
-                    <a href="./index.html" class="logof"> <b><span class="logocolor">Web</span>Studio</b></a>
-                        <ul class="nodots indent-footer">
-                            <li class="adress">
-                                <a href="https://goo.gl/maps/3x2iVxyqnWNt6SJH9" target="_blank" rel="noopener noreferrer" class="textadress nounderline"> м. Київ, пр-т Лесі Українки, 26 </a></li>
-                            <li class="adress"> 
-                                <a href="mailto: info@devstudio.com" class="textinform nounderline">info@devstudio.com</a></li>
-                            <li> 
-                                <a href="tel:+380961111111" class="textinform nounderline"> +38 096 111 11 11</a></li>
-                        </ul>
-                </div>
+      <div class="conteiner">
+        <div class="adress-and-network">
+          <div class="address">
+            <a href="./index.html" class="logof">
+              <b><span class="logocolor">Web</span>Studio</b></a
+            >
+            <ul class="nodots indent-footer">
+              <li class="adress">
+                <a
+                  href="https://goo.gl/maps/3x2iVxyqnWNt6SJH9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="textadress nounderline"
+                >
+                  м. Київ, пр-т Лесі Українки, 26
+                </a>
+              </li>
+              <li class="adress">
+                <a
+                  href="mailto: info@devstudio.com"
+                  class="textinform nounderline"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="textinform nounderline">
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
 
-                <div class="network">
-                    <p class="join"> <b>приєднуйтесь</b></p>
-                    <ul class="footer-soc-list">
-                        <li class="footer-soc-item">
-                            <a class="footer-soc-link link" href="#">
-                                <svg class="footer-soc-icon" width="20" height="20"><use href="./images/icons.svg#icon-instagram"></use></svg> 
-                            </a>
-                        </li>
-                        <li class="footer-soc-item">
-                            <a class="footer-soc-link link" href="#">
-                                <svg class="footer-soc-icon" width="20" height="20"><use href="./images/icons.svg#icon-twitter"></use></svg>  
-                            </a>
-                        </li>
-                        <li class="footer-soc-item">
-                            <a class="footer-soc-link link" href="#">
-                                <svg class="footer-soc-icon" width="20" height="20"><use href="./images/icons.svg#icon-facebook"></use></svg>  
-                            </a>
-                        </li>
-                        <li class="footer-soc-item">
-                            <a class="footer-soc-link link" href="#"> 
-                                <svg class="footer-soc-icon" width="20" height="20"><use href="./images/icons.svg#icon-linkedin"></use></svg> 
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+          <div class="network">
+            <p class="join"><b>приєднуйтесь</b></p>
+            <ul class="footer-soc-list">
+              <li class="footer-soc-item">
+                <a class="footer-soc-link link" href="#">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a class="footer-soc-link link" href="#">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a class="footer-soc-link link" href="#">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a class="footer-soc-link link" href="#">
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
